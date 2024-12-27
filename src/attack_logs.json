@@ -1,0 +1,40 @@
+[
+  {
+    "timestamp": "2024-12-23T12:17:47.033Z",
+    "type": "Normal",
+    "details": {
+      "source": "::1",
+      "method": "POST",
+      "target": "/safe-login"
+    }
+  },
+  {
+    "timestamp": "2024-12-23T12:17:47.041Z",
+    "type": "Brute Force",
+    "details": {
+      "source": "::1",
+      "method": "POST",
+      "target": "/safe-login",
+      "username": "Sasank",
+      "attempt": 23
+    }
+  },
+  {
+    "timestamp": "2024-12-23T12:19:02.256Z",
+    "type": "Normal",
+    "details": {
+      "source": "::1",
+      "method": "GET",
+      "target": "/logs"
+    }
+  },
+  {
+    "timestamp": "2024-12-23T12:19:20.266Z",
+    "type": "Normal",
+    "details": {
+      "source": "::1",
+      "method": "GET",
+      "target": "/logs"
+    }
+  }
+]
