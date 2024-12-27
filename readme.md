@@ -1,10 +1,10 @@
-## Secure Authentication and SQL Injection Prevention Project
+# Secure Authentication and SQL Injection Prevention Project
 
-# Overview
+## Overview
 
     This project demonstrates the implementation of secure authentication mechanisms, brute-force attack prevention, and SQL injection detection and mitigation. The system is designed using Node.js and MySQL, with a focus on secure coding practices.
 
-# Features
+## Features
 
     1. Authentication
 
@@ -32,7 +32,7 @@ Logs brute-force and SQL injection attempts in a JSON file (attack_logs.json).
 
 Logs normal requests with source IP, method, and target.
 
-# Folder Structure
+## Folder Structure
 
 project/
 |-- src/
@@ -44,7 +44,7 @@ project/
 |   |-- .env                        # Environment variables
 |   |-- attack_logs.json            # JSON file to log malicious activities
 
-# Technologies Used
+## Technologies Used
 
     Backend: Node.js, Express.js
 
@@ -54,7 +54,7 @@ project/
 
     Testing: Client.js (manual testing script)
 
-# Installation
+## Installation
 
     1.Clone the repository:
 
@@ -73,12 +73,12 @@ project/
     4.Initialize the database and create required tables (e.g., users).
         Install mysql and create a database
         Create a table called "users" with schema ( name varchar(50) , pass int)
-# Usage
+## Usage
 
     1.Start the Server : node src/Server.js
     2. Go to Client.js and uncomment the  particular function to test them
 
-# Endpoints
+## Endpoints
 
     1.Authentication
 
@@ -130,7 +130,7 @@ project/
 
 
 
-# Security Features
+## Security Features
 
 1. Parameterized Queries: Prevent SQL injection by using placeholders.
 
@@ -140,7 +140,7 @@ project/
 
 4. Activity Logging: Log details of brute-force and SQL injection attempts.
 
-# Future Improvements
+## Future Improvements
 
     Hashing passwords using libraries like bcrypt.
 
@@ -150,7 +150,7 @@ project/
 
     Deploying the application securely with HTTPS.
 
-# Acknowledgments
+## Acknowledgments
 
 Inspired by common security vulnerabilities and practices in web development.
 
